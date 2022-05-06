@@ -12,7 +12,7 @@ class Program
         // This program guesses the correct number
         int guess;
         Random randomNumber = new Random();
-        int number = randomNumber.Next(1, 6);
+        int number = randomNumber.Next(1,6);
 
         // input
         Console.WriteLine("This program lets the user guess a number between 1-6");
